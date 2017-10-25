@@ -1,0 +1,101 @@
+body {
+  background-color: #ffb3d1;
+  font-family: monospace;
+}
+
+#page_container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ff4d94;
+  padding: 10px;
+  border: 4px solid #b30047;
+  border-radius: 5%;
+  box-shadow: 4px 4px 3px rgba(102, 0, 41, .5);
+}
+
+h1 {
+  font-size: 36px;
+  color: #ffe6f0;
+  letter-spacing: 4px;
+}
+
+#view {
+  width: 350px;
+  height: 110px;
+  margin: 25px;
+  border: 4px solid #b30047;
+  border-radius: 5%;
+  background-color: #ffe6f0;
+}
+
+#calculation_view, #id_input{
+  width: 90%;
+  background-color: inherit;
+  border: none;
+  color: #ffe6f0;
+  letter-spacing: 4px;
+  text-align: right;
+  margin-top: 6px;
+}
+
+#calculation_view {
+  font-size: 16px;
+} 
+
+#id_input {
+  font-size: 28px;
+  font-family: monospace;
+}
+
+#view_button {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: #b30047;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  border: 4px solid #a30047;
+  border-radius: 5%;
+  color: #ffe6f0;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+button.button_nr:nth-child(10) {
+  width: 215px;
+}
+
+button.button_math_op {
+  width: 160px;
+}
+
+#button_result {
+  width: 350px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  box-shadow: 2px 2px 1px rgba(102, 0, 41, .5);
+  text-shadow: 2px 2px 1px rgba(102, 0, 41, .5);
+}
+
+#error_msg {
+  position: fixed;
+  left: 20%;
+  top: 20%;
+  background-color: #ff8080;
+  padding: 10px;
+  border: 3px solid #ff0000;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 20px;
+  display: none;
+}
